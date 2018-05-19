@@ -230,7 +230,7 @@ void View::specialKeys(int key, int x, int y) {
 
 void View::init(int argc, char** argv) {
 	glutInit(&argc,argv);
-	glutInitDisplayMode( GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 	glutInitWindowSize(700,700);
 	glutCreateWindow("3D");
 	View::myinit();
